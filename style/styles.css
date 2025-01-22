@@ -204,6 +204,19 @@
     border-radius: 18px;
     box-shadow:inset 0px 0px 28.3px 0.94px rgba(0,0,0,0.05);
 }
+.arrow{
+        display: flex;
+        justify-content: space-around;
+        max-width: 130px;
+        align-items: center;
+        margin: 60px auto;
+    }
+    .arrows:hover{
+        background-color: orange;
+        border-radius: 50%;
+        padding: 20px 20px;
+    }
+
 .story-title{
 
     font-size: 46px;
@@ -377,9 +390,10 @@
         grid-template-columns: repeat(1,1fr);
         justify-content:space-around;
         align-items: center;
-        max-width: 400px;
+        max-width:400px;
         
     }
+    
     .big-story{
         display:none
     }
