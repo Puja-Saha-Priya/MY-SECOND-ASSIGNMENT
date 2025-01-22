@@ -390,8 +390,16 @@
         grid-template-columns: repeat(1,1fr);
         justify-content:space-around;
         align-items: center;
-        max-width:400px;
+        max-width:650px;
         
+    }
+    .curriculum-items{
+        max-width: 650px;
+    }
+    .curricuium-description{
+        text-align: center;
+        max-width: 350px;
+        margin: 40px auto;
     }
     
     .big-story{
@@ -400,6 +408,9 @@
     .footer-part{
         flex-direction: column;
         align-items: start;
+    }
+    .arrow{
+        display: none;
     }
     }
 @media only screen and (min-width:770px) and (max-width:1950px) {
